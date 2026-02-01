@@ -1,2 +1,1 @@
-hi
-hello this is a fetching example
+Testing Jenkins auto build
