@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building project...'
+                echo 'Building project version 2'
                 bat 'dir'
             }
         }
