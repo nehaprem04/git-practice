@@ -3,22 +3,12 @@ pipeline {
 
     stages {
 
-        stage('Build') {
+        stage('Show Workspace') {
             steps {
-                echo 'Building project version 2'
+                echo 'Current folder:'
+                bat 'cd'
+                echo 'Files in workspace:'
                 bat 'dir'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Running tests...'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
             }
         }
 
